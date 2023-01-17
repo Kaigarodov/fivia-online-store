@@ -24,15 +24,25 @@
     "next-dev": "next dev"
   },
   "dependencies": {
+    "@adminjs/express": "^5.0.1",
+    "@adminjs/nestjs": "^5.1.0",
+    "@adminjs/sequelize": "^3.0.0",
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/cqrs": "^9.0.1",
     "@nestjs/platform-express": "^9.0.0",
+    "adminjs": "^6.7.5",
     "nest-next": "^10.0.0",
     "next": "^13.1.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "sequelize": "^6.28.0",
+    "sequelize-typescript": "^2.1.5"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",

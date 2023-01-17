@@ -29,7 +29,12 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {
+      "@server/framework/*" : [
+        "src/server/frameworks/*"
+      ]
+    }
   },
   "include": [
     "next-env.d.ts",
